@@ -25,7 +25,6 @@ body {
 .container {
   margin: 0 auto;
   max-width: 350px;
-
 }
 
 .card {
@@ -56,13 +55,16 @@ body {
   font-weight: 400;
 }
 
-
-.attribution {
-  bottom: 4px;
-  font-size: 12px;
+.footer {
+  bottom: 0;
   position: fixed;
   text-align: center;
   width: 100%;
+}
+
+
+.attribution {
+  font-size: 12px;
 }
 
 .attribution a {
